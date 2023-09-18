@@ -35,3 +35,25 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+
+/* mon code */
+
+body {
+  max-width: 375px;
+  margin: auto;
+  background: gray;
+}
+
+header {
+  background: pink;
+}
+
+main {
+  background: white;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
+}
