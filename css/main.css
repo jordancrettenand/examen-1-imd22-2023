@@ -42,14 +42,40 @@ body {
   max-width: 375px;
   margin: auto;
   background: gray;
+  text-align: center;
 }
 
 header {
   background: pink;
+  padding: 20px;
+}
+
+nav {
+  background: black;
+  color: pink;
+  padding: 20px;
 }
 
 main {
   background: white;
+}
+
+.annonce-haut,
+.annonce-bas {
+  padding: 20px;
+}
+
+.bouton {
+  background: black;
+  color: pink;
+  padding: 30px;
+}
+
+.bloc-1,
+.bloc-2,
+.bloc-3 {
+  background: greenyellow;
+  padding: 20px;
 }
 
 footer {
