@@ -56,6 +56,24 @@ nav {
   padding: 20px;
 }
 
+h1,
+h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+}
+
+h2,
+h3,
+nav,
+p {
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+}
+
+h3 {
+  padding: 60px 20px 30px 20px;
+}
+
 main {
   background: white;
 }
@@ -76,10 +94,22 @@ main {
 .bloc-3 {
   background: greenyellow;
   padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+}
+
+em {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
 }
 
 footer {
   background: black;
   color: white;
   padding: 20px;
+}
+
+.titre {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
 }
