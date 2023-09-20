@@ -45,8 +45,10 @@ body {
   text-align: center;
 }
 
+/* ******************************************* */
+
 header {
-  background: pink;
+  background: #d7a1fd;
   padding: 20px;
 }
 
@@ -55,7 +57,13 @@ nav {
   color: white;
   padding: 20px;
   text-transform: uppercase;
+  /* flexbox menu */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
+/* ******************************************* */
 
 a {
   text-decoration: none;
@@ -99,41 +107,52 @@ h3 {
 }
 
 main {
-  background: white;
+  background: #f4ede8;
   padding-bottom: 50px;
+}
+
+.bloc-annonce {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  margin: 15px;
 }
 
 .bloc-haut {
   border: 1px solid black;
-  margin: 20px;
+  margin: 5px;
 }
 
 hr {
   height: 7px;
-  background-color: #d24f4f;
+  background-color: #d7a1fd;
   border: none;
 }
 
 .titre-bloc {
   padding: 20px;
+  text-align: center;
 }
 
 .t-annonce {
   font-size: 30px;
   text-transform: uppercase;
   font-style: italic;
+  padding: 0;
 }
 
 .p-annonce {
   font-size: 15px;
   text-transform: uppercase;
-  padding: 14px;
+  padding: 14px 0 0 0;
 }
 
 .bloc-bas {
   border-radius: 20px;
-  background: #fee;
-  margin: 20px;
+  background: #fff;
+  margin: 5px;
+  width: 189px;
 }
 
 .bloc-bas p {
@@ -146,24 +165,40 @@ hr {
 }
 
 .bouton {
-  background: red;
-  color: pink;
-  margin: 10px 97px 60px 97px;
+  background: #000;
+  color: #d7a1fd;
+  margin: 30px 97px 60px 97px;
+  width: 234px;
+  height: 55px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .annonce {
-  background: greenyellow;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 800;
-  margin: 20px 0 20px 0;
-}
-
-.ann-rose {
-  background: purple;
+  background: #98fb00;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 800;
   padding: 20px;
-  margin: 60px 0 30px 0;
+}
+
+.annonce2 {
+  background: #98fb00;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  width: 214px;
+  height: 112px;
+}
+
+.ann-rose {
+  background: #d7a1fd;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  padding: 20px;
+  margin: 60px 0 0 0;
   font-size: 45px;
   text-transform: uppercase;
 }
@@ -187,7 +222,7 @@ em {
 footer {
   background: black;
   color: white;
-  padding: 20px;
+  padding: 20px 20px 112px 20px;
 }
 
 .titre {
@@ -198,6 +233,24 @@ footer {
 }
 
 h5 {
-  color: gray;
+  color: #313131;
   font-size: 45px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banniere {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
